@@ -1,10 +1,11 @@
-.header {
+header {
     display: flex;
-    flex-direction: row;
-    height: 15vh;
-    width: 100vw;
-}
+    justify-content: space-between;
 
+    /* height: 15vh;
+    width: 100vw; */
+}
+/* 
 .header div {
     height: 7vh;
     width: 9vw;
@@ -13,4 +14,25 @@
 .header div img {
     height: 100%;
     width: 100%;
+} */
+
+#logo {
+    height: 2vh;
+    width: 5vw;
+}
+
+#user {
+    height: 3vh;
+    width: 3vh;
+    border-radius: 100%;
+}
+
+#left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#right {
+    display: flex;
+    justify-content: flex-end;
 }
