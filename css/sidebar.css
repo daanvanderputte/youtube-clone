@@ -1,0 +1,4 @@
+.sidebar {
+    display: grid;
+    grid-template-rows: 1fr 2fr 2.5fr;
+}
