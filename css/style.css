@@ -5,7 +5,6 @@
 @import url(main.css);
 
 .container {
-    border: black solid 1px;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 13fr;
