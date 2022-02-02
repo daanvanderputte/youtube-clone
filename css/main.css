@@ -1,4 +1,4 @@
 .main {
     display: grid;
-    grid-template-rows: 4fr 2fr 1fr 10fr;
+    grid-template-rows: 12% 8% 5% 50%;
 }

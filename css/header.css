@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    width: 100vw;
+}
+
+.header div {
+    height: 7vh;
+    width: 9vw;
+}
+
+.header div img {
+    height: 100%;
+    width: 100%;
+}
