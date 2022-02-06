@@ -1,4 +1,20 @@
 .sidebar {
     display: grid;
     grid-template-rows: 15% 30% 45%;
+    font-weight: 300;
+    color: var(--youtube-black);
+}
+
+.sidebar div nav ul li {
+    display: flex;
+}
+
+.sidebar div nav ul li i {
+    margin-left: -20px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.sidebar div nav h4 {
+    margin-left: 20px;
 }
