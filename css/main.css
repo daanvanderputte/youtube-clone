@@ -1,6 +1,6 @@
 .main {
     display: grid;
-    grid-template-rows: 12% 8% 5% 50%;
+    /* grid-template-rows: 12% 8% 5% 50%; */
 }
 
 .banner {
@@ -25,8 +25,29 @@
     display: flex;
 }
 
-#mtv {
+#mtv-logo {
     height: 10vh;
     width: 10vh;
     border-radius: 100%;
+}
+
+.mtv {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.channel form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 40px;
+}
+
+.channel form input {
+    height: 30px;
+    width: 100px;
+    background-color: var(--youtube-red);
+    color: var(--youtube-white);
 }

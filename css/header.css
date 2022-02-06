@@ -46,7 +46,7 @@ header form {
     display: flex;
     align-self: center;
     justify-content: center;
-    width: 30vw;
+    width: 50vw;
 }
 
 header form input {
