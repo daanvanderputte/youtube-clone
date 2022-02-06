@@ -5,6 +5,11 @@
     color: var(--youtube-black);
 }
 
+.sidebar div nav {
+    border-bottom: 1px var(--youtube-grey) solid;
+    margin-right: 15px;
+}
+
 .sidebar div nav ul li {
     display: flex;
 }

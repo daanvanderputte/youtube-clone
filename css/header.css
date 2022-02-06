@@ -1,13 +1,13 @@
 header {
     display: flex;
     justify-content: space-between;
-    /* height: 15vh;
-    width: 100vw; */
+    height: 5vh;
 }
 header form {
     display: flex;
     justify-content: center;
     width: 50%;
+    margin-top: -1vh;
 }
 header form i {
     margin-top: 4px;
@@ -23,12 +23,12 @@ header form i {
     width: 100%;
 } */
 #logo {
-    height: 2vh;
-    width: 5vw;
+    height: 3vh;
+    width: 7vw;
 }
 #user {
-    height: 3vh;
-    width: 3vh;
+    height: 4vh;
+    width: 4vh;
     border-radius: 100%;
 }
 #left {
@@ -36,6 +36,7 @@ header form i {
     align-self: flex-start;
     justify-content: space-evenly;
     width: 10vw;
+    margin-top: 1vh;
 }
 header form {
     display: flex;
@@ -51,4 +52,7 @@ header form input {
     align-self: flex-end;
     justify-content: space-evenly;
     width: 15vw;
+}
+header div i {
+    margin-top: 1vh;
 }

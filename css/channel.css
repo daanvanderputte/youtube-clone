@@ -1,6 +1,5 @@
 .channel {
     background-color: var(--youtube-light-grey);
-    /* margin-top: 3vh; */
     display: flex;
     justify-content: space-between;
     height: 13vh;

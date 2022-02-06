@@ -1,6 +1,6 @@
 .pages {
     display: flex;
-    background-color: var(--youtube-light-grey)
+    background-color: var(--youtube-light-grey);
 }
 .pages nav ul {
     border: black solid 2px;
