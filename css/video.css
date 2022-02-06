@@ -1,0 +1,17 @@
+.videos {
+    display: flex;
+}
+
+/* .video-card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+
+} */
+
+.thumbnail div img {
+    height: 20%;
+    width: 20%;
+}
+
