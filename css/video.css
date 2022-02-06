@@ -14,7 +14,24 @@
 }
 
 .thumbnail div img {
-    height: 90%;
-    width: 90%;
+    height: 20vh;
+    width: 17vw;
 }
 
+.video-length {
+    width: 2.3vw;
+    text-align: center;
+    background-color: var(--youtube-black);
+    color: var(--youtube-white);
+}
+
+.video-title {
+    font-weight: 600;
+    color: var(--youtube-black);
+}
+
+.viewcount {
+    font-weight: 300;
+    font-size: 12px;
+    color: var(--youtube-dark-grey);
+}

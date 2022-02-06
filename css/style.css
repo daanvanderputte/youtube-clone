@@ -6,7 +6,9 @@
 @import url(main.css);
 @import url(video.css);
 
-.container {
+body {
+    font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 0.5fr 9.5fr;
@@ -14,6 +16,15 @@
     "menu menu"
     "left content";
 }
+
+/* .container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 0.5fr 9.5fr;
+    grid-template-areas: 
+    "menu menu"
+    "left content";
+} */
 
 .header {
     grid-area: menu;
