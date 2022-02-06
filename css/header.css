@@ -45,7 +45,21 @@ header form {
     width: 50vw;
 }
 header form input {
-    width: 80%;
+    border: 1px solid var(--youtube-grey);
+    height: 4vh;
+    width: 70%;
+}
+header form button {
+    border: 1px solid var(--youtube-grey);
+    height: 4vh;
+    width: 8%;
+}
+#microphone {
+    height: 4vh;
+    width: 4vh;
+    background-color: var(--youtube-light-grey);
+    border-radius: 100%;
+    margin-left: 1vw;
 }
 #right {
     display: flex;
