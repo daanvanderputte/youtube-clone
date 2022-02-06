@@ -1,17 +1,20 @@
-.videos {
-    display: flex;
-}
-
-/* .video-card {
+.video-section {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    
+}
 
-} */
+.videos-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.videos-bottom {
+    display: flex;
+    flex-direction: row;
+}
 
 .thumbnail div img {
-    height: 20%;
-    width: 20%;
+    height: 90%;
+    width: 90%;
 }
 
