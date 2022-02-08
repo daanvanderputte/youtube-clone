@@ -7,7 +7,7 @@
 @import url(./channel.css);
 @import url(./pages.css);
 @import url(./videos.css);
-
+/* Grid: Header/Sidebar/Main */
 body {
     font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
@@ -18,24 +18,12 @@ body {
     "menu menu"
     "left content";
 }
-
-/* .container {
-    display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: 0.5fr 9.5fr;
-    grid-template-areas: 
-    "menu menu"
-    "left content";
-} */
-
 .header {
     grid-area: menu;
 }
-
 .sidebar {
     grid-area: left;
 }
-
 .main {
     grid-area: content;
 }

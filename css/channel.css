@@ -1,3 +1,4 @@
+/* Channel info */
 .channel {
     background-color: var(--youtube-light-grey);
     display: flex;
@@ -14,6 +15,7 @@
     margin-top: 1.5vh;
     margin-left: 30px;
 }
+/* Channel name and subscribers */
 .mtv {
     display: flex;
     flex-direction: column;
@@ -34,6 +36,7 @@
     color: var(--youtube-dark-grey);
     font-size: 12px;
 }
+/* Subscribe button */
 .channel form {
     display: flex;
     flex-direction: column;
