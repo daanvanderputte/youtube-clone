@@ -13,15 +13,6 @@ header form i {
   margin-top: 4px;
   margin-left: 7px;
 }
-/* 
-.header div {
-    height: 7vh;
-    width: 9vw;
-}
-.header div img {
-    height: 100%;
-    width: 100%;
-} */
 #logo {
   height: 3vh;
   width: 7vw;
@@ -31,7 +22,7 @@ header form i {
   width: 4vh;
   border-radius: 100%;
 }
-#left {
+#menu-logo {
   display: flex;
   align-self: flex-start;
   justify-content: space-evenly;
@@ -55,14 +46,19 @@ header form button {
   width: 8%;
 }
 #microphone {
-  height: 4vh;
-  width: 2.5vw;
+  height: 2rem;
+  width: 2rem;
   background-color: var(--youtube-light-grey);
-  /* border-radius: 100%; */
+  border-radius: 100%;
   text-align: center;
   margin-left: 1vw;
 }
-#right {
+#microphone i {
+  position: relative;
+  top: 4px;
+  right: 3.5px;
+}
+#settings-user {
   display: flex;
   align-self: flex-end;
   justify-content: space-evenly;
