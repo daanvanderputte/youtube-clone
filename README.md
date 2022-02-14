@@ -2,7 +2,7 @@
 
 <img src=./images/screenshot.png alt="Screenshot"/>
 
-Recreated a YouTube page using Grid and Flexbox. The project is static, no clickable buttons and the videos are pictures.
+Recreated a YouTube page using Grid and Flexbox. This project is static, no clickable buttons and the videos are pictures.
 
 <img src=./svgs/laptop-code.svg alt="Code" width="30"/>
 
